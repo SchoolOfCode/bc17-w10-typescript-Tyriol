@@ -2,7 +2,7 @@
 
 The aim here is to become more familiar with TypeScript, not to finish all the tasks.
 
-## Task 1
+## Task 1 ✅
 
 Navigate to the [TypeScript Playground](https://www.typescriptlang.org/play) and have a go at the following things:
 
@@ -38,7 +38,7 @@ Navigate to the [TypeScript Playground](https://www.typescriptlang.org/play) and
 
 See how you can break the Typescript functionality as much as use it correctly. Learn what it can and can't do!
 
-## Task 2
+## Task 2 ✅
 
 The aim of this task is to convert an existing rock, paper, scissors game (in `task-2/src/game.js`) from JavaScript to TypeScript. The game logic has already been written for you so that you can just focus on TypeScript.
 
@@ -59,28 +59,28 @@ Once complete, try serving the `index.html` locally (using something like Live S
 
 Let's write a simple web application which fetches a dad joke and displays it on the page. The way that the setup below should work is you'll write TypeScript files in the `src` folder and running the build script should automatically output JavaScript files in the `build` folder.
 
-1. `cd` into the `task-3` folder
-2. Run `npm i -D typescript` to install TypeScript as a development-only dependency.
-3. Create a `src` folder within the `task-3` folder.
-4. Create a `build` folder within the `task-3` folder.
+1. `cd` into the `task-3` folder ✅
+2. Run `npm i -D typescript` to install TypeScript as a development-only dependency. ✅
+3. Create a `src` folder within the `task-3` folder. ✅
+4. Create a `build` folder within the `task-3` folder. ✅
 5. Run `npx tsc --init` to create a `tsconfig.json` in the `task-3` folder. With the newly created `tsconfig.json`, uncomment and change:
 
-   1. `compilerOptions.module` to be `"ES6"` (or newer if you prefer)
-   2. `compilerOptions.rootDir` to be `"./src"`
-   3. `compilerOptions.outDir` to be `"./build"`
-   4. `compilerOptions.noEmitOnError` to be `true`
-   5. `compilerOptions.strict` to be `true`
+   1. `compilerOptions.module` to be `"ES6"` (or newer if you prefer) ✅
+   2. `compilerOptions.rootDir` to be `"./src"` ✅
+   3. `compilerOptions.outDir` to be `"./build"` ✅
+   4. `compilerOptions.noEmitOnError` to be `true` ✅
+   5. `compilerOptions.strict` to be `true` ✅
 
 (You might see a TypeScript error in `tsconfig.json` until you add at least one TypeScript file in the `src` folder.)
 
-6. Add a `build` script to your `package.json` which runs the command `tsc`
-7. Optionally, add a `dev` script to your `package.json` which runs the command `tsc --watch`. (You can use this whilst developing.)
-8. Create an `index.html` which contains any starter HTML you'll need. Any JavaScript files you want to link should come from the `build` folder (as this is where TypeScript should output any JavaScript files based on the config above). You may want to add `type="module"` and `defer` attributes to the `script` tag in the HTML file (depending on your code).
+6. Add a `build` script to your `package.json` which runs the command `tsc` ✅
+7. Optionally, add a `dev` script to your `package.json` which runs the command `tsc --watch`. (You can use this whilst developing.) ✅
+8. Create an `index.html` which contains any starter HTML you'll need. Any JavaScript files you want to link should come from the `build` folder (as this is where TypeScript should output any JavaScript files based on the config above). You may want to add `type="module"` and `defer` attributes to the `script` tag in the HTML file (depending on your code). ✅
 
 9. Write a small front end using TypeScript which:
 
-   1. Contains a HTML blockquote element (for displaying a fetched quote)
-   2. Contains a HTML button element (so that the user can fetch a new joke by clicking)
+   1. Contains a HTML blockquote element (for displaying a fetched quote) ✅
+   2. Contains a HTML button element (so that the user can fetch a new joke by clicking) ✅
    3. Fetches a new joke (from `https://icanhazdadjoke.com/`) and displays it in the blockquote element whenever the button is clicked
    4. Fetches and displays a new joke when the page initially loads
    5. Try to:
